@@ -1,0 +1,71 @@
+#menu-icn{
+    display: none; 
+}
+header label{
+    float: right; 
+    font-size: 150%;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.menu{
+    position: absolute;
+ 
+    width: 100%;
+    height: 100%;
+    background-color: #D3B692;
+    top: 50px; 
+    left:-100%;
+    transition: all .5s; 
+ 
+}
+
+.menu a:hover{
+    background-color: rgba(131, 99, 32, 0.404);
+}
+
+
+#menu-bar:checked ~ .menu{
+    transform: translateX(0%);
+}
+
+.menu a{
+    display: block;
+    color: azure;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+@media(min-width: 1024px){
+    .menu{
+      position: static;
+      width: auto;
+      height: auto;
+      transform: translateX(00%);
+      float: right;
+      display: flex;
+    }
+    menu a {
+      border: none;
+    }
+    }
+
+
+    
+footer {
+    margin-top: 2rem; /* Ajusta este valor según tus necesidades */
+    padding: 2rem 0; /* Ajusta el padding según el diseño */
+    background-color: #F5F5DC; /* Color de fondo */
+    text-align: center;
+    border-top: 1px solid #9E8C6F;
+}
+
+footer .sociales a {
+    margin: 0 10px;
+    color: #4E3A2B;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+    

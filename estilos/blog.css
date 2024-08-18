@@ -1,0 +1,71 @@
+#blog {
+    text-align: center;
+    padding: 20px;
+}
+
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los artículos */
+    flex-wrap: wrap; /* Permite que los artículos se ajusten en varias filas si es necesario */
+}
+
+#blog article {
+    position: relative; /* Necesario para que el título se posicione sobre la imagen */
+    width: 200px; /* Puedes ajustar el ancho según tus necesidades */
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden; /* Para que el borde redondeado funcione correctamente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para mejorar la apariencia */
+    background-color: #fff;
+    transition: transform 0.3s ease; /* Animación suave al pasar el cursor */
+    margin: 20px; /* Espacio alrededor de los artículos */
+}
+
+#blog article:hover {
+    transform: scale(1.05); /* Escala el artículo al pasar el cursor para un efecto de enfoque */
+}
+
+#blog img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Redondea todas las esquinas */
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
+
+#blog h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra el texto horizontal y verticalmente */
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor legibilidad */
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2em; /* Tamaño de fuente ajustable */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    z-index: 1; /* Asegura que el texto esté por encima de la imagen */
+    width: 100%; /* Asegura que el texto ocupe todo el ancho del contenedor */
+    text-align: center; /* Centra el texto dentro del h4 */
+}
+
+#bienvenidos {
+    text-align: center;
+    margin-top: auto;
+}
+
+
+footer {
+    margin-top: 2rem; /* Ajusta este valor según tus necesidades */
+    padding: 2rem 0; /* Ajusta el padding según el diseño */
+    background-color: #F5F5DC; /* Color de fondo */
+    text-align: center;
+    border-top: 1px solid #9E8C6F;
+}
+
+footer .sociales a {
+    margin: 0 10px;
+    color: #4E3A2B;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}

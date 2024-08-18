@@ -1,0 +1,54 @@
+#banner{
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+
+#banner .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner h2{
+    font-size: 60px;
+}
+
+
+#banner a{
+    display: block;
+    width: 135px;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid #556B2F;
+    border-radius: 25px;
+}
+
+#banner a:hover{
+    background-color: #4d6d3e9c;
+}
+
+
+footer {
+    margin-top: 2rem; /* Ajusta este valor según tus necesidades */
+    padding: 2rem 0; /* Ajusta el padding según el diseño */
+    background-color: #F5F5DC; /* Color de fondo */
+    text-align: center;
+    border-top: 1px solid #9E8C6F;
+}
+
+footer .sociales a {
+    margin: 0 10px;
+    color: #4E3A2B;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}

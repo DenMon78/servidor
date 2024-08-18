@@ -1,0 +1,90 @@
+.formulario {
+    background-color: #F5F5DC; /* Color de fondo del formulario */
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+}
+
+.formulario fieldset {
+    border: none;
+    padding: 0;
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #4E3A2B; /* Color oscuro para el texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton {
+    background-color: #9E8C6F; /* Color del botón */
+    color: #fff;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 100%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #8c7b5e; /* Color más oscuro para el hover */
+}
+
+.campo {
+    margin-bottom: 1.5rem;
+}
+
+.campo label {
+    color: #333333; /* Gris oscuro para los labels */
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.campo textarea {
+    height: 12rem;
+    resize: vertical;
+}
+
+.input-text {
+    width: 100%;
+    border: 1px solid #9E8C6F; /* Borde del campo de entrada */
+    padding: 1rem;
+    border-radius: .5rem;
+    box-sizing: border-box;
+}
+
+footer {
+    margin-top: 2rem; /* Ajusta este valor según tus necesidades */
+    padding: 1rem 0; /* Ajusta el padding según el diseño */
+    background-color: #ffffff; /* Color de fondo opcional */
+}
+
+
+
+footer {
+    margin-top: 2rem; /* Ajusta este valor según tus necesidades */
+    padding: 2rem 0; /* Ajusta el padding según el diseño */
+    background-color: #F5F5DC; /* Color de fondo */
+    text-align: center;
+    border-top: 1px solid #9E8C6F;
+}
+
+footer .sociales a {
+    margin: 0 10px;
+    color: #4E3A2B;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}

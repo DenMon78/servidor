@@ -1,0 +1,118 @@
+#catalogo {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+
+#catalogo .contenedor {
+    max-width: 1000px; /* Ajusta el ancho máximo del contenedor si es necesario */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#catalogo_2 .contenedor_2 {
+    max-width: 1000px; /* Ajusta el ancho máximo del contenedor si es necesario */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#catalogo h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#catalogo_2 h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    padding-top: 80px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#catalogo h3 {
+    text-align: center;
+    margin-top: 20px; /* Agrega un margen superior para separar el título de los libros recomendados del contenido anterior */
+}
+
+.libros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los libros */
+    justify-content: center; /* Centra los libros en el contenedor */
+}
+
+.libro {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(25% - 20px); /* Cuatro libros por fila, considerando el espacio entre ellos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    overflow: hidden; /* Asegura que los bordes de la imagen no se desborden */
+}
+
+.libro:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.libro-img {
+    width: 100%; /* Ajusta el ancho de la imagen para que ocupe todo el espacio disponible */
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.libro:hover .libro-img {
+    transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
+    filter: brightness(1.1); /* Aumenta el brillo al pasar el cursor */
+}
+
+.libro h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.libro p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.btn-comprar {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-comprar:hover {
+    background-color: #0056b3;
+}
+
+
+.contenedor_2{
+    padding: 70px;
+}
+
+
+footer {
+    margin-top: 2rem; /* Ajusta este valor según tus necesidades */
+    padding: 2rem 0; /* Ajusta el padding según el diseño */
+    background-color: #F5F5DC; /* Color de fondo */
+    text-align: center;
+    border-top: 1px solid #9E8C6F;
+}
+
+footer .sociales a {
+    margin: 0 10px;
+    color: #4E3A2B;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}

@@ -1,0 +1,93 @@
+img{
+    display: block;
+    width: 100%;
+    max-width: 199%;
+}
+.contenedor-flexible{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.galeria__img{
+    object-fit: cover;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.column--50-25{
+    width: 24.5%;
+}
+
+.galeria__img:hover{
+    transform: scale(1.05);
+}
+
+.galeria__img--grande{
+    height: 400px;
+}
+.galeria__img--chica{
+    height: 200px;
+}
+
+.modal{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+}
+/*centrar la imagen seleccionada*/
+.modal__contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*ancho de la imagen*/
+.modal_img{
+    width: 50%;
+}
+/*estilo de boton*/
+.modal_boton{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    background: #ff0000;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*funcion js que permite abrir la img*/
+.modal--open{
+    display: block;
+}
+
+
+
+footer {
+    margin-top: 2rem; /* Ajusta este valor según tus necesidades */
+    padding: 2rem 0; /* Ajusta el padding según el diseño */
+    background-color: #F5F5DC; /* Color de fondo */
+    text-align: center;
+    border-top: 1px solid #9E8C6F;
+}
+
+footer .sociales a {
+    margin: 0 10px;
+    color: #4E3A2B;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
